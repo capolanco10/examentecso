@@ -1,0 +1,17 @@
+#deploy
+target
+
+.classpath
+.project
+.settings/
+
+
+# IntelliJ
+/out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Mac
+.DS_Store

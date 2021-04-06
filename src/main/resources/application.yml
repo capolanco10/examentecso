@@ -1,0 +1,29 @@
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+      url: jdbc:mysql://34.66.26.168:3306/payments?zeroDateTimeBehavior=convertToNull
+      username: flexibility
+      password: flexibility
+
+server:
+  port: 8080
+  #port: 8090
+  servlet:
+    context-path: '/payments'
+
+logging:
+  level:
+    org.springframework: ERROR
+    ar.com.plug.examen.app.controller: DEBUG
+  pattern:
+    console: "%d{dd-yyyy-MM HH:mm:ss.SSS} [%t] %-5level [%c] - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: app.log
+---
