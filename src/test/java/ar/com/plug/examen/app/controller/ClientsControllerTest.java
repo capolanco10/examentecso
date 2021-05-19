@@ -4,7 +4,6 @@
 package ar.com.plug.examen.app.controller;
 
 import static org.junit.Assert.assertEquals;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
@@ -12,7 +11,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -23,7 +22,6 @@ import org.testng.collections.Lists;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 import ar.com.plug.examen.app.api.ClientsApi;
-import ar.com.plug.examen.app.api.MessageApi;
 import ar.com.plug.examen.domain.service.impl.ClientsServiceImpl;
 /**
  * @autor luxos CACP - 11/02/2021

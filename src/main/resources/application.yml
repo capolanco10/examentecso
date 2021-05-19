@@ -8,9 +8,9 @@ spring:
       ddl-auto: update
     show-sql: true
   datasource:
-      url: jdbc:mysql://34.66.26.168:3306/payments?zeroDateTimeBehavior=convertToNull
-      username: flexibility
-      password: flexibility
+      url: jdbc:mysql://localhost:3306/payments?zeroDateTimeBehavior=convertToNull
+      username: root
+      password: Riverplatecapeto
 
 server:
   port: 8080
