@@ -44,7 +44,5 @@ Bonus
 	`docker push luxos/tecsoflexibilitysrl:tagname`
 
 6) Hostear la app en un cloud computing libre y enviar la URL para consultar.
-	> El servicio está desplegado en google compute engine
-	[get clientes en google cloud](http://cloud.r-fast.com:8090/payments/api/v1/clients/getclients)
 
 
